@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Delta Auth">
+  <rect width="1200" height="630" fill="#f4f4fd"/>
+  <rect x="72" y="72" width="1056" height="486" rx="32" fill="#ffffff" stroke="#c7c4f7" stroke-width="3"/>
+  <circle cx="150" cy="154" r="46" fill="#4f46e5"/>
+  <text x="150" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">D</text>
+  <text x="220" y="150" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#111827">Delta Auth</text>
+  <text x="220" y="202" font-family="Arial, sans-serif" font-size="24" fill="#6b7079">Login Simples</text>
+  <text x="96" y="330" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#111827">Login e Autenticacao</text>
+  <text x="96" y="392" font-family="Arial, sans-serif" font-size="28" fill="#6b7079">Editorial claro para demos comerciais da LogiCodem</text>
+  <rect x="96" y="462" width="255" height="58" rx="18" fill="#4f46e5"/>
+  <text x="224" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">MVP funcional</text>
+</svg>

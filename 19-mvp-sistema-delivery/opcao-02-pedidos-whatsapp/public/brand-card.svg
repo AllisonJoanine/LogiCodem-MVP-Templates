@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Fina Delivery">
+  <rect width="1200" height="630" fill="#1a0b09"/>
+  <rect x="72" y="72" width="1056" height="486" rx="32" fill="#210e0b" stroke="#721918" stroke-width="3"/>
+  <circle cx="150" cy="154" r="46" fill="#e24d4d"/>
+  <text x="150" y="169" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#210e0b">F</text>
+  <text x="220" y="150" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#fceeee">Fina Delivery</text>
+  <text x="220" y="202" font-family="Arial, sans-serif" font-size="24" fill="#a49b99">Pedidos Whatsapp</text>
+  <text x="96" y="330" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#fceeee">Sistema Delivery</text>
+  <text x="96" y="392" font-family="Arial, sans-serif" font-size="28" fill="#a49b99">Command center premium para demos comerciais da LogiCodem</text>
+  <rect x="96" y="462" width="255" height="58" rx="18" fill="#e24d4d"/>
+  <text x="224" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#210e0b">MVP funcional</text>
+</svg>
