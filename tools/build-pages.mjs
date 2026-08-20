@@ -8,7 +8,10 @@ const outDir = join(root, 'pages-dist');
 const baseUrl = 'https://allisonjoanine.github.io/LogiCodem-MVP-Templates';
 
 const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
-const workspaces = [...pkg.workspaces].sort((a, b) => a.localeCompare(b, 'pt-BR'));
+const staticWorkspaces = [
+  '21-mvp-site-canil/opcao-01-alex-boston-terriers'
+];
+const workspaces = [...pkg.workspaces, ...staticWorkspaces].sort((a, b) => a.localeCompare(b, 'pt-BR'));
 
 const categories = [
   ['01-mvp-site-institucional', 'Site Institucional'],
@@ -30,7 +33,8 @@ const categories = [
   ['17-mvp-painel-relatorios', 'Painel de Relatorios'],
   ['18-mvp-sistema-condominio', 'Sistema de Condominio'],
   ['19-mvp-sistema-delivery', 'Sistema Delivery'],
-  ['20-mvp-sistema-clinica', 'Sistema de Clinica']
+  ['20-mvp-sistema-clinica', 'Sistema de Clinica'],
+  ['21-mvp-site-canil', 'Site para Canil']
 ];
 
 function optionTitle(workspace) {
@@ -54,7 +58,9 @@ rmSync(outDir, { recursive: true, force: true });
 mkdirSync(outDir, { recursive: true });
 
 for (const workspace of workspaces) {
-  const dist = join(root, workspace, 'dist');
+  const dist = staticWorkspaces.includes(workspace)
+    ? join(root, workspace)
+    : join(root, workspace, 'dist');
   const target = join(outDir, ...workspace.split('/'));
   mkdirSync(target, { recursive: true });
   cpSync(dist, target, { recursive: true });
@@ -184,7 +190,7 @@ writeFileSync(join(outDir, 'index.html'), `<!doctype html>
   <body>
     <header>
       <h1>LogiCodem MVP Templates</h1>
-      <p>60 MVPs React + Vite + TypeScript, prontos para demonstracao comercial, adaptacao e venda. Todos incluem assinatura <a href="https://www.linkedin.com/in/allison-joanine-ti">by LogiCodem</a>.</p>
+      <p>${workspaces.length} MVPs prontos para demonstracao comercial, adaptacao e venda. Todos incluem assinatura <a href="https://www.linkedin.com/in/allison-joanine-ti">by LogiCodem</a>.</p>
     </header>
     <main>
       <div class="grid">

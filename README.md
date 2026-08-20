@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3>60 MVPs React prontos para vender, apresentar e adaptar para clientes reais.</h3>
+  <h3>61 MVPs prontos para vender, apresentar e adaptar para clientes reais.</h3>
 
   <p>
     Uma biblioteca comercial da <strong>LogiCodem</strong> com modelos de sites, dashboards, sistemas operacionais, CRMs,
@@ -23,7 +23,7 @@
     <img alt="Vite" src="https://img.shields.io/badge/Vite-8-646cff?style=for-the-badge&logo=vite&logoColor=white">
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-ready-3178c6?style=for-the-badge&logo=typescript&logoColor=white">
     <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-online-222?style=for-the-badge&logo=github&logoColor=white">
-    <img alt="MVPs" src="https://img.shields.io/badge/60-MVPs-0f766e?style=for-the-badge">
+    <img alt="MVPs" src="https://img.shields.io/badge/61-MVPs-0f766e?style=for-the-badge">
   </p>
 
 </div>
@@ -314,6 +314,14 @@ Para clínicas, consultórios, recepções e pequenos atendimentos de saúde que
 | Agendamento Pacientes | Agenda de pacientes, serviços, datas, horários e confirmação | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/20-mvp-sistema-clinica/opcao-01-agendamento-pacientes/) |
 | Prontuário Simples | Histórico, dados do paciente, registros e acompanhamento básico | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/20-mvp-sistema-clinica/opcao-02-prontuario-simples/) |
 | Gestão Consultório | Visão de atendimentos, pacientes, agenda e rotina administrativa | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/20-mvp-sistema-clinica/opcao-03-gestao-consultorio/) |
+
+### 21. Site para Canil
+
+Para criadores responsáveis que desejam apresentar sua história, seus cães e organizar visitas com uma presença digital editorial e acolhedora.
+
+| Opção | Ideal para | Link |
+| --- | --- | --- |
+| Alex • Boston Terriers | Site responsivo com perfis, ninhadas, galeria, FAQ e contato pelo WhatsApp | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/21-mvp-site-canil/opcao-01-alex-boston-terriers/) |
 
 ## Como Adaptar Para um Cliente Real
 
