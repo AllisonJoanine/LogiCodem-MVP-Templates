@@ -1,7 +1,7 @@
 /*
  * Conteúdos editáveis antes da publicação definitiva:
  * [NOME_OFICIAL_DO_CANIL]
- * [WHATSAPP_DO_ALEX]
+ * WhatsApp oficial: +55 15 99606-2708
  * [INSTAGRAM_DO_CANIL]
  * [CIDADE_DO_CANIL]
  * [EMAIL_DO_CANIL]
@@ -9,7 +9,7 @@
  * [HORÁRIOS_PARA_VISITAS]
  */
 const siteConfig = {
-  whatsappNumber: "", // Preencher somente com dígitos quando [WHATSAPP_DO_ALEX] for informado.
+  whatsappNumber: "5515996062708",
   messages: {
     default: "Olá, Alex! Encontrei o site do canil e gostaria de conhecer melhor seus Boston Terriers.",
     hero: "Olá, Alex! Encontrei o site do canil e gostaria de conhecer melhor seus Boston Terriers.",
