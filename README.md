@@ -321,7 +321,8 @@ Para criadores responsáveis que desejam apresentar sua história, seus cães e 
 
 | Opção | Ideal para | Link |
 | --- | --- | --- |
-| Alex • Boston Terriers | Site responsivo com perfis, ninhadas, galeria, FAQ e contato pelo WhatsApp | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/21-mvp-site-canil/opcao-01-alex-boston-terriers/) |
+| Alex • Boston Terriers — Editorial | Site responsivo com perfis, ninhadas, galeria, FAQ e contato pelo WhatsApp | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/21-mvp-site-canil/opcao-01-alex-boston-terriers/) |
+| Alex • Boston Terriers — Wix-inspired | Segunda direção visual com hero fotográfico, grade de quatro histórias, apresentação, galeria, visitas e formulário para WhatsApp | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/21-mvp-site-canil/opcao-02-wix-boston-terriers/) |
 
 ## Como Adaptar Para um Cliente Real
 

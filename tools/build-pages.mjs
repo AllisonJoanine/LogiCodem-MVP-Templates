@@ -9,7 +9,8 @@ const baseUrl = 'https://allisonjoanine.github.io/LogiCodem-MVP-Templates';
 
 const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
 const staticWorkspaces = [
-  '21-mvp-site-canil/opcao-01-alex-boston-terriers'
+  '21-mvp-site-canil/opcao-01-alex-boston-terriers',
+  '21-mvp-site-canil/opcao-02-wix-boston-terriers'
 ];
 const workspaces = [...pkg.workspaces, ...staticWorkspaces].sort((a, b) => a.localeCompare(b, 'pt-BR'));
 

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://allisonjoanine.github.io/LogiCodem-MVP-Templates/21-mvp-site-canil/opcao-02-wix-boston-terriers/sitemap.xml
