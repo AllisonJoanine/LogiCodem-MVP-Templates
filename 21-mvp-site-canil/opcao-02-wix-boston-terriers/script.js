@@ -1,3 +1,26 @@
+const pageLoader = document.querySelector(".site-loader");
+if (pageLoader) {
+  const loaderStartedAt = performance.now();
+  let loaderDismissed = false;
+
+  const dismissLoader = () => {
+    if (loaderDismissed) return;
+    loaderDismissed = true;
+    const minimumVisibleTime = 620;
+    const delay = Math.max(0, minimumVisibleTime - (performance.now() - loaderStartedAt));
+
+    window.setTimeout(() => {
+      pageLoader.classList.add("is-leaving");
+      pageLoader.setAttribute("aria-hidden", "true");
+      window.setTimeout(() => pageLoader.remove(), 700);
+    }, delay);
+  };
+
+  if (document.readyState === "complete") dismissLoader();
+  else window.addEventListener("load", dismissLoader, { once: true });
+  window.setTimeout(dismissLoader, 4500);
+}
+
 /*
  * Conteúdos editáveis antes da publicação definitiva:
  * [NOME_OFICIAL_DO_CANIL]
