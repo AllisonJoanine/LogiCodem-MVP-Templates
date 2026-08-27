@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3>61 MVPs prontos para vender, apresentar e adaptar para clientes reais.</h3>
+  <h3>63 MVPs prontos para vender, apresentar e adaptar para clientes reais.</h3>
 
   <p>
     Uma biblioteca comercial da <strong>LogiCodem</strong> com modelos de sites, dashboards, sistemas operacionais, CRMs,
@@ -23,7 +23,7 @@
     <img alt="Vite" src="https://img.shields.io/badge/Vite-8-646cff?style=for-the-badge&logo=vite&logoColor=white">
     <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-ready-3178c6?style=for-the-badge&logo=typescript&logoColor=white">
     <img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-online-222?style=for-the-badge&logo=github&logoColor=white">
-    <img alt="MVPs" src="https://img.shields.io/badge/61-MVPs-0f766e?style=for-the-badge">
+    <img alt="MVPs" src="https://img.shields.io/badge/63-MVPs-0f766e?style=for-the-badge">
   </p>
 
 </div>
@@ -124,6 +124,7 @@ Para empresas, consultorias, prestadores e marcas que precisam transmitir confia
 | Empresa Moderna | Apresentar empresa, serviços, prova social, formulário de contato e CTA comercial | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/opcao-01-empresa-moderna/) |
 | Corporativo Premium | Empresas que querem presença institucional elegante, confiável e mais sofisticada | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/opcao-02-corporativo-premium/) |
 | Serviços Locais | Negócios locais que precisam de página objetiva, contato rápido e conversão | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/opcao-03-servicos-locais/) |
+| Dr Pet Clínica Veterinária | Site institucional demonstrativo para clínica veterinária com serviços, localização e contato pelo WhatsApp | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/dr-pet-clinica-veterinaria/) |
 
 ### 02. Landing Page SaaS
 

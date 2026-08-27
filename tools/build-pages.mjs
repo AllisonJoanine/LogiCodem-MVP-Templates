@@ -8,10 +8,12 @@ const outDir = join(root, 'pages-dist');
 const baseUrl = 'https://allisonjoanine.github.io/LogiCodem-MVP-Templates';
 
 const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
-const staticWorkspaces = [
-  '21-mvp-site-canil/opcao-01-alex-boston-terriers',
-  '21-mvp-site-canil/opcao-02-wix-boston-terriers'
-];
+const staticWorkspaceSources = new Map([
+  ['01-mvp-site-institucional/dr-pet-clinica-veterinaria', 'out'],
+  ['21-mvp-site-canil/opcao-01-alex-boston-terriers', '.'],
+  ['21-mvp-site-canil/opcao-02-wix-boston-terriers', '.']
+]);
+const staticWorkspaces = [...staticWorkspaceSources.keys()];
 const workspaces = [...pkg.workspaces, ...staticWorkspaces].sort((a, b) => a.localeCompare(b, 'pt-BR'));
 
 const categories = [
@@ -59,8 +61,8 @@ rmSync(outDir, { recursive: true, force: true });
 mkdirSync(outDir, { recursive: true });
 
 for (const workspace of workspaces) {
-  const dist = staticWorkspaces.includes(workspace)
-    ? join(root, workspace)
+  const dist = staticWorkspaceSources.has(workspace)
+    ? join(root, workspace, staticWorkspaceSources.get(workspace))
     : join(root, workspace, 'dist');
   const target = join(outDir, ...workspace.split('/'));
   mkdirSync(target, { recursive: true });
