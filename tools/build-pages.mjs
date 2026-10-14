@@ -10,6 +10,7 @@ const baseUrl = 'https://allisonjoanine.github.io/LogiCodem-MVP-Templates';
 const pkg = JSON.parse(readFileSync(join(root, 'package.json'), 'utf8'));
 const staticWorkspaceSources = new Map([
   ['01-mvp-site-institucional/dr-pet-clinica-veterinaria', 'out'],
+  ['01-mvp-site-institucional/dr-paulo-goes-ribeiro', 'dist'],
   ['21-mvp-site-canil/opcao-01-alex-boston-terriers', '.'],
   ['21-mvp-site-canil/opcao-02-wix-boston-terriers', '.']
 ]);

@@ -125,6 +125,7 @@ Para empresas, consultorias, prestadores e marcas que precisam transmitir confia
 | Corporativo Premium | Empresas que querem presença institucional elegante, confiável e mais sofisticada | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/opcao-02-corporativo-premium/) |
 | Serviços Locais | Negócios locais que precisam de página objetiva, contato rápido e conversão | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/opcao-03-servicos-locais/) |
 | Dr Pet Clínica Veterinária | Site institucional demonstrativo para clínica veterinária com serviços, localização e contato pelo WhatsApp | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/dr-pet-clinica-veterinaria/) |
+| Dr. Paulo Góes Ribeiro | Site institucional de Nutrologia e Clínica Médica, com trajetória, localização e agendamento via WhatsApp | [Abrir projeto](https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/dr-paulo-goes-ribeiro/) |
 
 ### 02. Landing Page SaaS
 

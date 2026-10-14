@@ -44,6 +44,12 @@ jobs:
           NEXT_PUBLIC_BASE_PATH: /LogiCodem-MVP-Templates/01-mvp-site-institucional/dr-pet-clinica-veterinaria
         run: npm ci && npm run build
 
+      - name: Build Dr Paulo site
+        working-directory: 01-mvp-site-institucional/dr-paulo-goes-ribeiro
+        env:
+          SITE_URL: https://allisonjoanine.github.io/LogiCodem-MVP-Templates/01-mvp-site-institucional/dr-paulo-goes-ribeiro/
+        run: npm ci --workspaces=false && npm run build
+
       - name: Build Pages artifact
         run: npm run build:pages
 
